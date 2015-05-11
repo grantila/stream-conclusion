@@ -1,0 +1,22 @@
+{
+  "name": "stream-conclusion",
+  "description": "Analyses the contents of a stream and returns the number of chunks and amount of bytes passed",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "stream",
+    "count",
+    "analyze",
+    "end",
+    "finish"
+  ],
+  "dependencies": {
+    "through2": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
