@@ -7,7 +7,7 @@ Example:
 ```js
 var streamConclusion = require('stream-conclusion');
 
-function conclusion({result}) {
+function conclusion(result) {
   console.log(result.bytes + " bytes passed through in " + result.chunks + " chunks");
 }
 
